@@ -1,0 +1,146 @@
+:root{
+    box-sizing: border-box;
+    color: #0d0033;
+    color: #14004e;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2015/02/24/02/05/website-647013_1280.jpg);
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+#navbar{
+    overflow: hidden;
+
+    width: 100%;
+    height: 50px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    margin: 0;
+    padding: 5px 0;
+    box-shadow: 0 10px 10px -5px black;
+    background-color: rgba(16, 15, 15, 0.833);
+    transition: 0.4s;
+   
+}
+#navbar p{
+    margin: 0 10px 0 auto;
+    color: orange;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    margin: 0 0 0 auto;
+    list-style: none;
+    right: 10px;
+}
+#navbar ul li a{
+    
+    color: white;
+    
+}
+.slider-box{
+    color: white;
+    height: 450px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: start;
+    
+    background-color: rgba(16, 15, 15, 0.833);
+   
+}
+.slider-box p {
+    color: orange;
+    font-size: 1.4rem;
+
+}
+.introduce{
+   
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    padding: 60px 20px 20px 20px;
+    text-align: center;
+    margin-left: 50px;/*
+    flex: 40% 0 0 ;*/
+}
+.picture-off-me{
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+    padding: 0 20px 20px 20px;
+    text-align:  center;
+    /*
+    flex: 0 0 20%;*/
+}
+.about-me{
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    padding: 5px 20px 20px 20px;
+    text-align: left;
+}
+.school-box{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    background-color: rgba(16, 15, 15, 0.833);
+    align-items: center;
+    
+}
+
+.column-school{
+    position: relative;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    margin: 10px 10px 10px 10px;
+    padding-right: 10px;
+    border: 5px black solid; 
+    width: 40%;
+}
+
+.zst-jaslo{
+    background-image: url(https://www.terazjaslo.pl/wp-content/uploads/2022/04/Boisko_ZST_11-780x405.jpg);
+    
+}
+.container-fluid{
+    background-color: rgba(16, 15, 15, 0.833);
+    height: 400px;
+    
+}
+.about{
+    color: white;
+    
+    
+}
+.intro-list ul{
+    margin-left: 50px;
+}
+
+.introduce-main article{
+    text-align: left;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 991px) and (min-width: 769px){
+    .introduce-main{
+        text-align: center;
+    }
+   }
+   
+/*
+https://cdn.pixabay.com/photo/2015/02/24/02/05/website-647013_1280.jpg
+padding: 50px 0 0 0;
+margin-top: 20px;
+*/
